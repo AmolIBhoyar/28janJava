@@ -1,6 +1,9 @@
 package POM_DDF;
 
 import java.io.FileInputStream;
+
+
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
@@ -35,19 +38,21 @@ public class PBLoginTest
 		PBPwdPage page=new PBPwdPage(driver);
 		page.InputPBwdPage(password);
 		page.ClickonPBpwdPageSignIN();
-		
-	PBHomePage map=new PBHomePage(driver);
-		map.OpenDDOptionPBHomePageMyacc();
-		Thread.sleep(1000);
-		
-	    PBMyAccPage raw=new PBMyAccPage(driver);
-		raw.clickPbMyAccPageMyProfile();
 		Thread.sleep(2000);
-//		
-		PBProfilePage frof=new PBProfilePage(driver);
-		frof.SwitcToChildWindow();
-	frof.verifyPBProfilePagefullname();
-//		
+		
+		PBHomePage pag=new PBHomePage(driver);
+		pag.openDDOptionPBHomePageMyacc();
+		Thread.sleep(2000);
+		
+		PBMyAccPage acc=new PBMyAccPage(driver);
+		acc.clickPbMyAccPageMyProfile();
+		
+		
+		String name = sh.getRow(0).getCell(2).getStringCellValue();
+		PBProfilePage nag=new PBProfilePage(driver);
+		nag.verifyPBProfilePagefullname();
+		
+		
+		
 	}
-
-}
+	}
