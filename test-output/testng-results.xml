@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--running Login TC--]]>
+    </line>
+    <line>
+      <![CDATA[--running Logout Tc--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-11T18:16:37 IST" name="Default suite" finished-at="2023-06-11T18:16:37 IST" duration-ms="163">
+    <groups>
+    </groups>
+    <test started-at="2023-06-11T18:16:37 IST" name="Default test" finished-at="2023-06-11T18:16:37 IST" duration-ms="163">
+      <class name="TestNg.example5_TestNGKeyword5_dependsOnMethod">
+        <test-method signature="Login()[pri:0, instance:TestNg.example5_TestNGKeyword5_dependsOnMethod@7bab3f1a]" started-at="2023-06-11T18:16:37 IST" name="Login" finished-at="2023-06-11T18:16:37 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running Login TC--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:0, instance:TestNg.example5_TestNGKeyword5_dependsOnMethod@7bab3f1a]" started-at="2023-06-11T18:16:37 IST" name="Logout" finished-at="2023-06-11T18:16:37 IST" depends-on-methods="TestNg.example5_TestNGKeyword5_dependsOnMethod.Login" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running Logout Tc--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- TestNg.example5_TestNGKeyword5_dependsOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
