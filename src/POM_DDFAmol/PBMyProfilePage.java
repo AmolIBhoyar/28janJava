@@ -24,10 +24,10 @@ public class PBMyProfilePage
 		ArrayList<String>a1=new ArrayList<String>(allids);
 		driver1.switchTo().window(a1.get(1));
 	}
-	public void verifyfullname() 
+	public void verifyfullname(String expName) 
 	{
 		String actName = myprof.getAttribute("value");
-		String expName="Jan batch";
+		//String expName="Jan batch";
 		
 		if(actName.equals(expName))
 		{

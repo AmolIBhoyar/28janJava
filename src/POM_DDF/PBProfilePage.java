@@ -31,10 +31,10 @@ public class PBProfilePage
 		ArrayList<String>a1=new ArrayList<String>(allids);
 		driver1.switchTo().window(a1.get(1));
 	}
-	public void verifyPBProfilePagefullname() 
+	public void verifyPBProfilePageFullname(String expName) 
 	{
 		String actName = myProf.getAttribute("value");
-		String expName="Amol Bhoyar";
+		
 		
 		if(actName.equals(expName))
 		{
@@ -43,8 +43,6 @@ public class PBProfilePage
 		else
 		{
 			System.out.println("TC Fail");
-		
-	}
 
 }
-}
+}}

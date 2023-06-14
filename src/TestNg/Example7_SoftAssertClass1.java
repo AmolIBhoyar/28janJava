@@ -11,14 +11,21 @@ public class Example7_SoftAssertClass1
 	@Test
 	public void TC5()
 	{
+		SoftAssert soft=new SoftAssert();
 		String actresult="hi";
 		String expresult="hello";
-		Assert.assertEquals(actresult, expresult,"Failed1: both results are diff-");
+		soft.assertEquals(actresult, expresult);
 		
-		boolean actresult1=false;
-		Assert.assertTrue(actresult1,"Failed2: act result is false-");
+		boolean actResult1 = false;		
+		soft.assertTrue(actResult1,"Failed2: act result is false- ");
+		
+		soft.assertAll();
+	
+		
+	
 
-		//soft.assertAll();
+		
+	
 	}
 	
 

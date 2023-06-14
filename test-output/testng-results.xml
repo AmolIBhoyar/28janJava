@@ -1,33 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[--running Login TC--]]>
+      <![CDATA[--running TC1--]]>
     </line>
     <line>
-      <![CDATA[--running Logout Tc--]]>
+      <![CDATA[--running TC2--]]>
+    </line>
+    <line>
+      <![CDATA[running TC3--]]>
+    </line>
+    <line>
+      <![CDATA[--running TC4]]>
+    </line>
+    <line>
+      <![CDATA[--running TC5]]>
+    </line>
+    <line>
+      <![CDATA[--running TC6]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-11T18:16:37 IST" name="Default suite" finished-at="2023-06-11T18:16:37 IST" duration-ms="163">
+  <suite started-at="2023-06-14T15:11:04 IST" name="Suite" finished-at="2023-06-14T15:11:04 IST" duration-ms="153">
     <groups>
     </groups>
-    <test started-at="2023-06-11T18:16:37 IST" name="Default test" finished-at="2023-06-11T18:16:37 IST" duration-ms="163">
-      <class name="TestNg.example5_TestNGKeyword5_dependsOnMethod">
-        <test-method signature="Login()[pri:0, instance:TestNg.example5_TestNGKeyword5_dependsOnMethod@7bab3f1a]" started-at="2023-06-11T18:16:37 IST" name="Login" finished-at="2023-06-11T18:16:37 IST" duration-ms="16" status="PASS">
+    <test started-at="2023-06-14T15:11:04 IST" name="Test" finished-at="2023-06-14T15:11:04 IST" duration-ms="153">
+      <class name="TestNg.example6_Sample2">
+        <test-method signature="TC4()[pri:0, instance:TestNg.example6_Sample2@7d4f9aae]" started-at="2023-06-14T15:11:04 IST" name="TC4" finished-at="2023-06-14T15:11:04 IST" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[--running Login TC--]]>
+              <![CDATA[--running TC4]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Logout()[pri:0, instance:TestNg.example5_TestNGKeyword5_dependsOnMethod@7bab3f1a]" started-at="2023-06-11T18:16:37 IST" name="Logout" finished-at="2023-06-11T18:16:37 IST" depends-on-methods="TestNg.example5_TestNGKeyword5_dependsOnMethod.Login" duration-ms="7" status="PASS">
+        </test-method> <!-- TC4 -->
+        <test-method signature="TC5()[pri:0, instance:TestNg.example6_Sample2@7d4f9aae]" started-at="2023-06-14T15:11:04 IST" name="TC5" finished-at="2023-06-14T15:11:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[--running Logout Tc--]]>
+              <![CDATA[--running TC5]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Logout -->
-      </class> <!-- TestNg.example5_TestNGKeyword5_dependsOnMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TC5 -->
+        <test-method signature="TC6()[pri:0, instance:TestNg.example6_Sample2@7d4f9aae]" started-at="2023-06-14T15:11:04 IST" name="TC6" finished-at="2023-06-14T15:11:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running TC6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+      </class> <!-- TestNg.example6_Sample2 -->
+      <class name="TestNg.example6_Sample1">
+        <test-method signature="TC1()[pri:0, instance:TestNg.example6_Sample1@1e1a0406]" started-at="2023-06-14T15:11:04 IST" name="TC1" finished-at="2023-06-14T15:11:04 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running TC1--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:TestNg.example6_Sample1@1e1a0406]" started-at="2023-06-14T15:11:04 IST" name="TC2" finished-at="2023-06-14T15:11:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--running TC2--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:0, instance:TestNg.example6_Sample1@1e1a0406]" started-at="2023-06-14T15:11:04 IST" name="TC3" finished-at="2023-06-14T15:11:04 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running TC3--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- TestNg.example6_Sample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

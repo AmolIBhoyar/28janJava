@@ -18,7 +18,7 @@ public class example1
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		System.out.println(src);        //src local memory store
 		File dest=new File("C:\\amol\\New folder\\amol.jpg");
-		org.openqa.selenium.io.FileHandler.copy(src, dest);
+        org.openqa.selenium.io.FileHandler.copy(src, dest);
 		//className.Methodname(pathofsource,pathof dest)
 	
 		

@@ -16,6 +16,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class PBLoginTest 
 {
+	private static final String expName = null;
+
 	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException 
 	{
 		FileInputStream file= new FileInputStream("C:\\amol\\abcd.xlsx");
@@ -48,9 +50,16 @@ public class PBLoginTest
 		acc.clickPbMyAccPageMyProfile();
 		
 		
+		
 		String name = sh.getRow(0).getCell(2).getStringCellValue();
-		PBProfilePage nag=new PBProfilePage(driver);
-		nag.verifyPBProfilePagefullname();
+		PBProfilePage pro=new PBProfilePage(driver);
+		pro.SwitcToChildWindow();
+		pro.verifyPBProfilePageFullname(name);
+	    
+		
+		
+		driver.quit();
+		
 		
 		
 		

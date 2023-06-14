@@ -19,7 +19,7 @@ public class example3_EmailableReports
 	@Test
 	public void TC3()
 	{
-		Reporter.log("running TC3", true);
+		Reporter.log("running TC3 test case", true);
 	}
 
 	

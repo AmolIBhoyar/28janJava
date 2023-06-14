@@ -5,6 +5,7 @@
     <classes>
       <class name="TestNg.example6_Sample1"/>
       <class name="TestNg.example6_Sample2"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

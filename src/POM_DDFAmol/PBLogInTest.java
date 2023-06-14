@@ -49,9 +49,9 @@ public class PBLogInTest
 		ac.clickPBMyAccPagemyprof();
 		Thread.sleep(1000);
 		
-		PBMyProfilePage pro=new PBMyProfilePage(driver);
-		pro.SwitcToChildWindow();
-		pro.verifyfullname();
+		//PBMyProfilePage pro=new PBMyProfilePage(driver);
+		//pro.SwitcToChildWindow();
+		//pro.verifyfullname(pass);
 		
 		
 		
