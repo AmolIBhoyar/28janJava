@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class guruagileprojectpage
-{
+{//page2
 	@FindBy(xpath="//a[text()='Agile Project']")private WebElement agile;
 	@FindBy(xpath="//div[@aria-label='Close ad']")private WebElement close;
 	

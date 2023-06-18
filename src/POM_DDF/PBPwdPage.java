@@ -20,7 +20,7 @@ public class PBPwdPage
    
    public void InputPBwdPage(String pass)
    {
-	   pwd.sendKeys("9421amol");
+	   pwd.sendKeys(pass);
    }
 		
    public void ClickonPBpwdPageSignIN()
