@@ -19,9 +19,9 @@ public class PBMobNumPage
     {
     	PageFactory.initElements(driver, this);
     }
-    public void InputPBMobNumPageMobNo(String mobilenum)
+    public void InputPBMobNumPageMobNo(String mobile)
     {
-    	MobNo.sendKeys(mobilenum);
+    	MobNo.sendKeys(mobile);
     }
     
     public void ClickPBMobNumPageSignInWithPWD()

@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.exampl12_MultiBrowserTesting">
+      <class name="POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.newtestclass">
         <methods>
-          <include name="TC1"/>
+          <include name="verifyDOB"/>
+          <include name="closeBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="loginToApp"/>
+          <include name="logoutFromApp"/>
         </methods>
-      </class> <!-- TestNg.exampl12_MultiBrowserTesting -->
+      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.newtestclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

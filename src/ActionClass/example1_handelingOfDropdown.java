@@ -25,7 +25,7 @@ public class example1_handelingOfDropdown
 		//step3
 		act.moveToElement(login).perform();
 		//click on wishlist element
-		driver.findElement(By.xpath("")).click();
+		driver.findElement(By.xpath("//div[text()='Wishlist']")).click();
 	}
 
 }
